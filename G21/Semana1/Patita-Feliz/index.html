@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElvisCuro</title>
+</head>
+<body>
+    <h1>Patita Feliz </h1>
+    <script>
+        let name;
+        let age;
+        let color;
+        let species;
+        let animals;
+        
+        alert('Animal 1');
+        name = prompt('Nombre');
+        age = prompt('edad');
+        color = prompt('color');
+        species = prompt('Especie');
+
+        animals = `
+            Nombre: ${name},
+            Edad: ${age},
+            Color: ${color},
+            Especies: ${species}
+        `
+        alert('Animal 2');
+        name = prompt('Nombre');
+        age = prompt('edad');
+        color = prompt('color');
+        species = prompt('Especie');
+
+        animals = animals +`
+            Nombre: ${name},
+            Edad: ${age},
+            Color: ${color},
+            Especies: ${species}
+        `
+        alert(animals);
+    </script>
+</body>
+</html>

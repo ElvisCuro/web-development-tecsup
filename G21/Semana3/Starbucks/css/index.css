@@ -1,0 +1,17 @@
+@import './modules/variables/variables.css';
+@import './modules/Components/header.css';
+@import './modules/Components/nav.css';
+@import './modules/Components/list.css';
+@import './modules/content/img.css';
+@import './modules/content/link.css';
+@import './modules/layouts/container.css';
+@import './modules/layouts/flexbox.css';
+@import './modules/utils/utils.css';
+@import './modules/Components/hero.css';
+@import './modules/content/button.css';
+
+.body {
+    margin: 0;
+    background-color: var(--primary-background-color);
+    font-family: var(--primary-font-family);
+  }

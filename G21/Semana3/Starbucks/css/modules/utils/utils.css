@@ -1,0 +1,10 @@
+.d-flex {
+    display: flex;
+  }
+  
+.gap-xs {
+    gap: calc(var(--primary-spacing) * 0.5);
+}
+.color-primary{
+    color: var(--primary-main-color);
+}
